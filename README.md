@@ -1,2 +1,2 @@
-# teacher_behavior_detection  复习行为
+# teacher_behavior_detection 举例行为
 
