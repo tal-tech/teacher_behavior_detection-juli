@@ -8,14 +8,14 @@ from src.teacher_behavior_detection import detect
 
 def find_guidance_text(data):
     for item in data['data']['text_result']:
-        if item['label'] == '复述':
+        if item['label'] == '寒暄':
             return item['text']
 
 if __name__ == "__main__":
     input_text = [
         
         {
-            "text": "明天记得复述今天的课文",
+            "text": "今天冷不冷记得多穿衣服",
             "begin_time": 1326752,
             "end_time": 1332165
         },
